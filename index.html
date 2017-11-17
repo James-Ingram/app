@@ -1,40 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>basic responsive example</title>
-  <link rel="stylesheet" href="css/styles.css">
-</head>
+  <head>
+    <meta charset="utf-8">
+    <meta name="theme-color" content="#805064">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> CrytoWeb </title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Architects Daughter' rel='stylesheet'>
+  </head>
 
-<body>
+  <body style="background-color:#805064;">
+    <div id="banner">
+      <!--
+        SVG Notes
+        
+        Ellipse
+        Coordinate X (CX)
+        Coordinate Y (CY)
+        Radius X (RX)
+        Radius Y (RY)
+        
+        Style Colours
+        purple - #805064
+        orange - #C48157
+        -->
+      <svg version="1.1" width="100%"  viewbox=" 0 0 300 50">
+        
+        <title>CryptoWeb logo</title>
 
-<header>
-  <h1>basic breakpoint demo</h1>
-</header>
+        <!--Purple to Orange -->
 
-<main>
+        <linearGradient id="g1" x1="0%" x2="100%" y1="0%" y2="0%">
+          <stop offset="0%" style="stop-color:#805064;"/>
+          <stop offset="75%" style="stop-color:#C48157;"/>
+        </linearGradient>
 
-  <section>
-    <h2>section 1</h2>
-    <p>some text and content</p>
-  </section>
+        <!-- Orange to Purple -->
 
-  <section>
-    <h2>section 2</h2>
-    <p>some text and content</p>
-  </section>
+        <linearGradient id="g2" x1="0%" x2="100%" y1="0%" y2="0%">
+          <stop offset="30%" style="stop-color:#C48157;"/>
+          <stop offset="100%" style="stop-color:#805064;"/>
+        </linearGradient>
 
-  <section>
-    <h2>section 3</h2>
-    <p>some text and content</p>
-  </section>
+        <rect  x="70" width="160" height="50" fill="#C48157" />
+        <ellipse id" cx="225" cy="25" rx="75" ry="25" fill="url(#g2)" />
+        <ellipse  cx="75" cy="25" rx="75" ry="25" fill="url(#g1)" />
+        <text font-weight="bold" font-family="Architects Daughter" font-size="35" x="60" y="35" fill="#000000">CryptoWeb</text>
+      </svg>
+      
+      <p style="font-family:Architects Daughter; text-align: center; font-size:150%;"><strong>A fun site to learn about the basics of cryptography</strong></p>
+    
+    </div>
+    
+    <main>
+      
+      <nav>
+        <ul style="font-family:Helvetica">
+          <li><a href="index.html"><strong>Home</strong></a></li>
+          <li><a href="news.asp"><strong>Caesar</strong></a></li>
+          <li><a href="contact.asp"><strong>Route</strong></a></li>
+          <li><a href="about.asp"><strong>Vingere</strong></a></li>
+        </ul>
+      </nav>
 
-  <section>
-    <h2>section 4</h2>
-    <p>some text and content</p>
-  </section>
+      <br></br>
 
-</main>
-
-</body>
+      <article style="font-family:Architects Daughter">
+        
+        <section>
+          <h2>Section 1</h2>
+          <p>some text and content </p>
+        </section>
+        
+        <section>
+          <h2>Section 2</h2>
+          <p>some text and content</p>
+        </section>
+        
+        <section>
+          <h2>Section 3</h2>
+          <p>some text and content </p>
+        </section>
+        
+        <section>
+          <h2>Section 4</h2>
+          <p>some text and content </p>
+        </section>
+      
+      </article>
+    </main>
+  </body>
 </html
