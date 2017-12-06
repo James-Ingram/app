@@ -98,7 +98,20 @@ section
     background-color: #C48157;
     border-radius: 32px;
 }
-
+.subSection span 
+{
+    font-family: helvetica;
+}
+.form form
+{
+    text-align:center;
+    padding: 10;
+    background-color: #C48157;    
+    border-color: black;
+    border-style: ridge;
+    margin:15;
+    border-radius: 32px;
+}
 .hidden
 {
     display: none;
@@ -123,9 +136,3 @@ section
         padding: 10px;
     }
 }
-
-
-
-
-
-
