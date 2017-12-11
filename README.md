@@ -31,4 +31,7 @@
  #### Images
  | Image Name | Location Used | Reference | Image
  |:-------:|:----:|:----------:|:----:|
- |Cryptography-machine.jpg| index.html| [Wikipedia](https://en.wikipedia.org/wiki/Cryptography)|![Alternate Message](images/Cryptography-machine.jpg "German cipher machine")
+ |Cryptography-machine.jpg| index.html| [Wikipedia](https://en.wikipedia.org/wiki/Cryptography)|![German cipher machine](images/Cryptography-machine.jpg "German cipher machine")
+ |Nsa-headquarters.png| index.html| [Wikipedia](https://en.wikipedia.org/wiki/National_Security_Agency)|![NSA headquarters in Fort Meade, Maryland](images/Nsa-headquarters.png "NSA headquarters in Fort Meade, Maryland")
+ |Rsa-decryption.png| index.html| [Javamez](https://www.javamex.com/tutorials/cryptography/rsa_key_length.shtml)|![RSA decryption time by key length graph](images/Rsa-decryption.png "RSA decryption time by key length graph")
+ |Key-encryption.png| index.html| [Wikipedia](https://en.wikipedia.org/wiki/Cryptography)|![Symmetric-key cryptography diagram](images/Key-encryption.png "Symmetric-key cryptography diagram")
