@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="theme-color" content="#805064">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> CrytoWeb </title>
+    <title> CryptoWeb </title>
     <link rel="stylesheet" href="css/caesarStyles.css">
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Architects+Daughter' >
   </head>
@@ -69,11 +69,14 @@
               <h2>Practical Example</h2>
                
             <form class="caesar" id="get-input" action="#">
-              <p>Here's the encryptedtext: <span id="user-output"><strong><em>Default</em></strong></span></p>
-              <label class="form-text" >Try your own encryption: </label>
-              <input class="form-text" type="text" id="user-input" placeholder="Enter some text to encrpyt!" maxlength="80">
+              <label>Try your own encryption:</label>
+              <section class="form-text">
+              <input type="text" id="user-input" placeholder="Enter some text to encrpyt!" maxlength="80">
               <input type="number" id="user-number" placeholder="0" min="0" max="26">
               <input type="submit" id="submit">
+            </section>
+              <p>Here's the encrypted text: <span id="user-output"><strong><em>Default</em></strong></span></p>
+            
             </form>
             <script src="scripts/caesar.js"></script>
             </section>

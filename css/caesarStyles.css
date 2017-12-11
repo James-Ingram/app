@@ -97,28 +97,38 @@ section h2
 {
     font-family: helvetica;
     background-color:#bf8261;
+    font-weight: bold;
+    font-style: italic;
 }
 .caesar label
 {
+    display: inline-flex;
     text-align: center;
-    width: 25%;   
+    width: 100%;   
     justify-content: space-between;
     align-items: stretch;
     background-color: #C48157;    
     border-color: black;
     border-style: ridge;
     border-radius: 32px;
-    padding:6px;
+    padding: 4px;
+    margin-bottom: 4px;
 }
 .form-text 
 {
     display: inline-flex;
-    width: 50%;
     text-align: center;  
-    align-items: stretch;
     background-color: #C48157;    
     border-color: black;
     border-style: ridge;
+    border-radius: 32px;
+    width: 100%;
+}
+.form-text input
+{
+    width: 100%;
+    padding: 0 auto;
+    margin: 5px ;
     border-radius: 32px;
 }
 .hidden
@@ -131,12 +141,12 @@ section h2
     text-align: left; /* Readability */
     justify-content: space-between;
     align-items: stretch;
-    padding:6px;
     border-color: black;
     border-style: ridge;
     border-radius: 32px;
     font-family: helvetica; /* Readability */
     font-weight: bold;
+    width: 100%;
 }
 
 /*Most phones*/
