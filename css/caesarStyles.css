@@ -136,6 +136,7 @@ section h2
     border-style: ridge;
     border-radius: 32px;
     font-family: helvetica; /* Readability */
+    font-weight: bold;
 }
 
 /*Most phones*/
