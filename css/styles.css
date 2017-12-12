@@ -1,0 +1,128 @@
+/*smallest devices*/
+body
+{
+    background-color:#805064;
+}
+.tagline
+{
+    border-color: black;
+    border-style: ridge;
+    background-color: #C48157;
+    border-radius: 32px;
+    font-family: 'Architects Daughter', cursive;
+    text-align: center; 
+    font-size: 100%;
+}
+/* Navbar stylings (Start)*/
+nav 
+{
+    width: 100%;
+}
+nav ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #C48157;
+    border-radius: 32px;
+    border-style: ridge;
+    border-color: black;
+    font-family: Helvetica;
+}
+nav li 
+{
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+nav li a 
+{
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover:not(.active) 
+{
+    background-color: #805064;
+}
+
+nav.active 
+{
+    background-color: #4CAF50;
+}
+/* Navbar stylings (End)*/
+
+.banner {
+    width:100%;
+    display: flex;
+}
+.hidden
+{
+    display: none;
+}
+.lowerHeader
+{
+    text-align: center;
+    width: 99%;   
+    justify-content: space-between;
+    align-items: stretch;
+    margin: 5px;
+    background-color: #C48157;    
+    border-color: black;
+    border-style: ridge;
+    border-radius: 28px;
+    font-family: 'Architects Daughter', cursive;
+}
+.content
+{
+    background-color: #C48157;  
+    text-align: left; /* Readability */
+    width: 100%;   
+    justify-content: space-between;
+    align-items: stretch;
+    border-color: black;
+    border-style: ridge;
+    border-radius: 32px;
+    font-family: helvetica; /* Readability */
+    display: inline-flex;
+    font-weight: bold;
+}
+.images
+{
+    display: none;
+}
+
+/*Most phones*/
+@media screen and (min-width: 500px)
+{
+    .tagline
+    {
+        font-size: 125%;
+        padding: 10px;
+    }
+}
+
+/*Tablets*/
+@media screen and (min-width: 800px)
+{
+
+    .tagline
+    {
+        font-size: 150%;
+        padding: 10px;
+    }    
+    .images
+    {
+    background-color: #C48157;    
+    justify-content: space-between;
+    align-items: stretch;
+    padding:5px;
+    border-color: black;
+    border-style: ridge;
+    border-radius: 29px;
+    display: inline-flex;
+    width: 50%;
+    }
+}
