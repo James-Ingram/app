@@ -1,0 +1,7 @@
+{  
+  "name": "CryptoWeb",
+  "short_name": "CryptoWeb",
+  "display": "standalone",
+  "background_color": "#805064",
+  "description": "A site to learn the basics of cryptography.",
+ }
