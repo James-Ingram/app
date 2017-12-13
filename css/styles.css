@@ -1,30 +1,25 @@
-/* Smallest devices */
-
-body {
-    background-color: #805064;
+/*smallest devices*/
+body
+{
+    background-color:#805064;
 }
-/* Logo */
-
-.banner {
-    display: flex;
-}
-/**/
-
-.tagline {
+.tagline
+{
     border-color: black;
     border-style: ridge;
     background-color: #C48157;
     border-radius: 32px;
     font-family: 'Architects Daughter', cursive;
-    text-align: center;
+    text-align: center; 
     font-size: 100%;
 }
-/* Navbar */
-
-nav {
+/* Navbar stylings (Start)*/
+nav 
+{
     width: 100%;
 }
-nav ul {
+nav ul 
+{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -35,126 +30,99 @@ nav ul {
     border-color: black;
     font-family: Helvetica;
 }
-nav li {
+nav li 
+{
     display: inline-flex;
     justify-content: space-between;
 }
-nav li a {
+
+nav li a 
+{
     color: black;
     padding: 14px 16px;
     text-decoration: none;
 }
-nav li a:hover:not(.active) {
+
+nav li a:hover:not(.active) 
+{
     background-color: #805064;
 }
-nav.active {
+
+nav.active 
+{
     background-color: #4CAF50;
 }
-/**/
+/* Navbar stylings (End)*/
 
-/* Main Body */
-section {
-    border-radius: 32px;
-    width: 100%;
+.banner {
+    width:100%;
+    display: flex;
+}
+.hidden
+{
+    display: none;
+}
+.lowerHeader
+{
+    text-align: center;
+    width: 99%;   
+    justify-content: space-between;
+    align-items: stretch;
+    margin: 5px;
+    background-color: #C48157;    
+    border-color: black;
+    border-style: ridge;
+    border-radius: 28px;
     font-family: 'Architects Daughter', cursive;
 }
-section h2 {
-    text-align: center;
-    justify-content: space-between;
-    align-items: stretch;
-    margin: 6px auto;
-    padding: 1px;
-    background-color: #C48157;
-    border-color: black;
-    border-style: ridge;
-    border-radius: 32px;
-}
-section p {
-    background-color: #C48157;
-    text-align: left;/* Readability */
-    justify-content: space-between;
-    align-items: stretch;
-    border-radius: 32px;
-    border-color: black;
-    border-style: ridge;
-    font-family: helvetica;/* Readability */
-    font-weight: bold;
-    padding: 10px;
-    margin: 6px;
-}
-
-/* Image and paragraphs */
-section div
-
+.content
 {
+    background-color: #C48157;  
+    text-align: left; /* Readability */
+    width: 100%;   
+    justify-content: space-between;
+    align-items: stretch;
+    border-color: black;
+    border-style: ridge;
+    border-radius: 32px;
+    font-family: helvetica; /* Readability */
     display: inline-flex;
+    font-weight: bold;
 }
-.images {
+.images
+{
     display: none;
 }
 
-/* Form Stylings */
-
-.caesar-section p {
-    border-color: black;
-    border-style: ridge;
-}
-.caesar label {
-    background-color: #C48157;
-    text-align: left;/* Readability */
-    justify-content: space-between;
-    align-items: stretch;
-    border-color: black;
-    border-style: ridge;
-    border-radius: 32px;
-    font-family: helvetica;/* Readability */
-    font-weight: bold;
-    padding: 10px;
-    margin: 6px;
-    width: 20%;
-}
-.caesar input {
-    text-align: left;/* Readability */
-    justify-content: space-between;
-    align-items: stretch;
-    border-color: black;
-    border-style: ridge;
-    border-radius: 32px;
-    font-family: helvetica;/* Readability */
-    font-weight: bold;
-    padding: 10px;
-    margin: 6px;
-    width: 20%;
-}
-
-/* Stylings for user output */
-section span {
-    background-color: #ff6200;
-}
-/**/
-
-/* Most phones */
-@media screen and (min-width: 500px) {
-    .tagline {
+/*Most phones*/
+@media screen and (min-width: 500px)
+{
+    .tagline
+    {
         font-size: 125%;
         padding: 10px;
     }
 }
 
-/* Tablets */
-@media screen and (min-width: 800px) {
-    .tagline {
+/*Tablets*/
+@media screen and (min-width: 800px)
+{
+
+    .tagline
+    {
         font-size: 150%;
         padding: 10px;
-    }
-    .images {
-        background-color: #C48157;
-        justify-content: space-between;
-        align-items: stretch;
-        padding: 5px;
-        border-color: black;
-        border-style: ridge;
-        border-radius: 29px;
-        display: inline-block;
+    }    
+    .images
+    {
+    background-color: #C48157;    
+    justify-content: space-between;
+    align-items: stretch;
+    padding:5px;
+    border-color: black;
+    border-style: ridge;
+    border-radius: 29px;
+    display: inline-flex;
+    width: 50%;
     }
 }
