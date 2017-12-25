@@ -95,6 +95,10 @@ section div
 
 /* Form Stylings */
 
+.instructions{
+    justify-content: center;
+    margin-right: 5px;
+}
 .caesar-section p {
     border-color: black;
     border-style: ridge;
@@ -115,8 +119,7 @@ section div
 }
 .caesar input {
     text-align: justify;/* Readability */
-    justify-content: space-between;
-    align-items: stretch;
+    justify-content: center;
     border-color: black;
     border-style: ridge;
     border-radius: 32px;
