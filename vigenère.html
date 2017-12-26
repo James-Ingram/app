@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="theme-color" content="#805064">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> CryptoWeb </title>
+    <title> CryptoWeb - Vigenère</title>
     <link rel="icon" href="images/icon.jpg">
     <link rel="stylesheet" href="css/styles.css">
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Architects+Daughter' >
@@ -42,12 +42,17 @@
     <p class="tagline"><strong>A fun site to learn about the basics of cryptography</strong></p>
     <main>
       
-      <nav>
+      <nav class="menu-toggle">
+
+          <input type="checkbox" />
+              <span></span>
+              <span></span>
+              <span></span>
         <ul>
-          <li><a href="index.html"><strong>Home</strong></a></li>
-          <li><a href="caesar.html"><strong>Caesar</strong></a></li>
-          <li><a href="route.html"><strong>Route</strong></a></li>
-          <li><a href="vigenère.html"><strong>Vigenère</strong></a></li>
+          <a href="index.html"><li><strong>Home</strong></li></a>
+          <a  href="caesar.html"><li><strong>Caesar</strong></li></a>
+          <a href="route.html"><li><strong>Route</strong></li></a>
+          <a class="current" href="vigenère.html"><li><strong>Vigenère</strong></li></a>
         </ul>
       </nav>
       <section>

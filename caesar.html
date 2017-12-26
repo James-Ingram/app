@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="theme-color" content="#805064">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> CryptoWeb </title>
+    <title> CryptoWeb - Caesar </title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Architects+Daughter' >
   </head>
@@ -32,12 +32,17 @@
     </div>
     <p class="tagline"><strong>A fun site to learn about the basics of cryptography</strong></p>
     <main>
-      <nav>
+      <nav class="menu-toggle">
+
+          <input type="checkbox" />
+              <span></span>
+              <span></span>
+              <span></span>
         <ul>
-          <li><a href="index.html"><strong>Home</strong></a></li>
-          <li><a href="caesar.html"><strong>Caesar</strong></a></li>
-          <li><a href="route.html"><strong>Route</strong></a></li>
-          <li><a href="vigenère.html"><strong>Vigenère</strong></a></li>
+          <a href="index.html"><li>Home</li></a>
+          <a class="current" href="caesar.html"><li>Caesar</li></a>
+          <a href="route.html"><li>Route</li></a>
+          <a href="vigenère.html"><li>Vigenère</li></a>
         </ul>
       </nav>
       <section class="caesar-section">
@@ -73,9 +78,9 @@
           <h2>Practical Example</h2>
           <div class="instructions">
           <p class="instructions">To use the example provided:</p>
-          <p class="instructions">-Enter text in to the first box</p>
-          <p class="instructions">-Add a number of places to shift the text (Second box)</p>
-          <p>-Click "Submit" </p>
+          <p class="instructions">- Enter text in to the first box</p>
+          <p class="instructions">- Add a number of places to shift the text (Second box)</p>
+          <p>- Click "Submit" </p>
         </div>
         <form class="caesar" id="get-input" action="#">
           <label>Try your own encryption:</label>
