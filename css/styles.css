@@ -20,17 +20,20 @@ body {
     font-size: 100%;
 }
 /* Navbar */
-.menu-toggle a li{
+.menu-toggle ul a{
     text-align: center;
     font-weight: bold;
     color: black;
-    text-decoration: none;
+    text-decoration: none;    
+    padding: 1px;
+
 }
-.menu-toggle a li{
-    padding: 5px 0;
-}
-.menu-toggle a li:hover:not(.active) {
+.menu-toggle ul a:hover:not(.active) {
     color: crimson;
+}
+.menu-toggle a li
+{
+    padding: 10px;
 }
 .menu-toggle
 {
@@ -84,7 +87,7 @@ body {
 
 .menu-toggle ul {
     position: fixed;
-    width: 300px;
+    width: 180px;
     margin: -50px 0 0 -70px; 
     padding: 5px;
     padding-top: 45px;
@@ -232,7 +235,7 @@ section span {
 }
 .menu-toggle ul a {
     color: black;
-    padding: 14px 16px;
+    padding: 5px;
     text-decoration: none;
 }
 .menu-toggle.active {
