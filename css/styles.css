@@ -97,7 +97,6 @@ body {
     background-color: #C48157;
     border-radius: 32px;
     list-style-type: none;  
-    z-index: -2;
   
     transform-origin: 0% 0%;
     transform: translate(-100%, 0);
@@ -160,8 +159,8 @@ section div
 /* Form Stylings */
 
 .instructions{
-    justify-content: center;
     margin-right: 5px;
+    text-align: justify;
 }
 .caesar-section p {
     border-color: black;
