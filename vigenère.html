@@ -9,83 +9,78 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Architects+Daughter' >
   </head>
-
   <body style="background-color:#805064;">
     <div class="banner">
       <svg version="1.1" width="100%"  viewbox=" 0 0 300 50">
-        
         <title>CryptoWeb logo</title>
-
         <!--Purple to Orange -->
         <!-- Inline CSS was done in order to avoid an uneccesarily complex CSS document -->
         <linearGradient id="g1" x1="0%" x2="100%" y1="0%" y2="0%">
           <stop offset="0%" style="stop-color:#805064;"/>
           <stop offset="75%" style="stop-color:#C48157;"/>
         </linearGradient>
-
         <!-- Orange to Purple -->
         <!-- Inline CSS was done in order to avoid an uneccesarily complex CSS document -->
         <linearGradient id="g2" x1="0%" x2="100%" y1="0%" y2="0%">
           <stop offset="30%" style="stop-color:#C48157;"/>
           <stop offset="100%" style="stop-color:#805064;"/>
         </linearGradient>
-
         <rect  x="70" width="160" height="50" fill="#C48157" />
         <ellipse cx="225" cy="25" rx="75" ry="25" fill="url(#g2)" />
         <ellipse  cx="75" cy="25" rx="75" ry="25" fill="url(#g1)" />
         <text font-weight="bold" font-family="Architects Daughter" font-size="35" x="60" y="35" fill="#000000">CryptoWeb</text>
       </svg>
-      
-      
-    
     </div>
     <p class="tagline"><strong>A fun site to learn about the basics of cryptography</strong></p>
     <main>
-      
       <nav class="menu-toggle">
-
-          <input type="checkbox" />
-              <span></span>
-              <span></span>
-              <span></span>
+        <input type="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
         <ul>
-          <a href="index.html"><li><strong>Home</strong></li></a>
-          <a href="caesar.html"><li><strong>Caesar</strong></li></a>
-          <a href="route.html"><li><strong>Route</strong></li></a>
-          <a href="vigenère.html"><li class="current"><strong>Vigenère</strong></li></a>
+          <a href="index.html">
+            <li><strong>Home</strong></li>
+          </a>
+          <a href="caesar.html">
+            <li><strong>Caesar</strong></li>
+          </a>
+          <a href="route.html">
+            <li><strong>Route</strong></li>
+          </a>
+          <a href="vigenère.html">
+            <li class="current"><strong>Vigenère</strong></li>
+          </a>
         </ul>
       </nav>
       <section>
-          <h2>What Is a Vigenère Cipher</h2>
-          <div>
-            <p>The Vigenère cipher is a method of encrypting alphabetic text by using a series of interwoven Caesar ciphers based on the letters of a keyword. It is a form of polyalphabetic substitution. To encrypt, a table of alphabets can be used, termed a tabula recta, Vigenère square, or Vigenère table. It consists of the alphabet written out 26 times in different rows, each alphabet shifted cyclically to the left compared to the previous alphabet, corresponding to the 26 possible Caesar ciphers. At different points in the encryption process, the cipher uses a different alphabet from one of the rows. The alphabet used at each point depends on a repeating keyword.</p>
-            <img class="images" src="images/Sliding-rule.jpg" alt="Cryptographic slide rule">
-          </div>
-        </section>
-        
-        <section>
-          <h2>A Case Of Mistaken Identity</h2>
-          <div>
+        <h2>What Is a Vigenère Cipher</h2>
+        <div>
+          <p>The Vigenère cipher is a method of encrypting alphabetic text by using a series of interwoven Caesar ciphers based on the letters of a keyword. It is a form of polyalphabetic substitution. To encrypt, a table of alphabets can be used, termed a tabula recta, Vigenère square, or Vigenère table. It consists of the alphabet written out 26 times in different rows, each alphabet shifted cyclically to the left compared to the previous alphabet, corresponding to the 26 possible Caesar ciphers. At different points in the encryption process, the cipher uses a different alphabet from one of the rows. The alphabet used at each point depends on a repeating keyword.</p>
+          <img class="images" src="images/Sliding-rule.jpg" alt="Cryptographic slide rule">
+        </div>
+      </section>
+      <section>
+        <h2>A Case Of Mistaken Identity</h2>
+        <div>
           <img class="images" src="images/Blaise-vigenère.png" alt="Blaise de Vigenère">
           <p>The Vigenère (French pronunciation: ​[viʒnɛːʁ]) cipher has been reinvented many times. The method was originally described by Giovan Battista Bellaso in his 1553 book La cifra del. Sig. Giovan Battista Bellaso; however, the scheme was later misattributed to Blaise de Vigenère in the 19th century, and is now widely known as the "Vigenère cipher"</p>
         </div>
-        </section>
-        
-        <section>
-          <h2>Cracking the Cipher</h2>
-          <div>
-			<p>Though the cipher is easy to understand and implement, for three centuries it resisted all attempts to break it; this earned it the description le chiffre indéchiffrable (French for 'the indecipherable cipher'). Many people have tried to implement encryption schemes that are essentially Vigenère ciphers. Friedrich Kasiski was the first to publish a general method of deciphering a Vigenère cipher in 1863.</p>
-			<img class="images" src="images/Cipher-disc.jpg" alt="Vigenère cipher disc">
-    </div>
-        </section>
-      
-        <section>
-          <h2>History Of The Vigenère Cipher</h2>
-          <div>
+      </section>
+      <section>
+        <h2>Cracking the Cipher</h2>
+        <div>
+          <p>Though the cipher is easy to understand and implement, for three centuries it resisted all attempts to break it; this earned it the description le chiffre indéchiffrable (French for 'the indecipherable cipher'). Many people have tried to implement encryption schemes that are essentially Vigenère ciphers. Friedrich Kasiski was the first to publish a general method of deciphering a Vigenère cipher in 1863.</p>
+          <img class="images" src="images/Cipher-disc.jpg" alt="Vigenère cipher disc">
+        </div>
+      </section>
+      <section>
+        <h2>History Of The Vigenère Cipher</h2>
+        <div>
           <img class="images" src="images/Vigenère-table.png" alt="The Vigenère square or Vigenère table">
           <p>The first well-documented description of a polyalphabetic cipher was formulated by Leon Battista Alberti around 1467 and used a metal cipher disc to switch between cipher alphabets. Alberti's system only switched alphabets after several words, and switches were indicated by writing the letter of the corresponding alphabet in the ciphertext. Later, in 1508, Johannes Trithemius, in his work Poligraphia, invented the tabula recta, a critical component of the Vigenère cipher. The Trithemius cipher, however, only provided a progressive, rigid, and predictable system for switching between cipher alphabets.</p>
         </div>
-        </section>
+      </section>
       </section>
     </main>
   </body>
