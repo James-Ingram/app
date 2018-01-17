@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget>
+
+<!-- versionCode is optional and Android only -->
+
+  <name>CryptoPal</name>
+  <icon src="Cryptopal.png"/>
+  <description>
+      A helpful tool for learning the basics of cryptography.
+  </description>
+
+  <author href="https://github.com/smurfjames101" email="smurfjames@gmail.com">
+      James Ingram
+  </author>
+
+</widget>
