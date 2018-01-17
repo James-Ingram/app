@@ -1,3 +1,7 @@
+@font-face{
+    font-family: Architects Daughter;
+    src: url(ArchitectsDaughter.ttf);
+}
 /* Smallest devices */
  body {
      background-color: #805064;
@@ -5,6 +9,10 @@
 /* Logo */
  .banner {
      display: flex;
+} 
+
+.logo{
+    font-family: Architects Daughter;
 }
 /**/
  .tagline {
@@ -12,7 +20,7 @@
      border-style: ridge;
      background-color: #c48157;
      border-radius: 32px;
-     font-family: 'Architects Daughter', cursive;
+     font-family:Architects Daughter;
      text-align: center;
      font-size: 100%;
 }
@@ -96,7 +104,7 @@
  section {
      border-radius: 32px;
      width: 100%;
-     font-family: 'Architects Daughter', cursive;
+     font-family: Architects Daughter;
 }
  section h2 {
      text-align: center;
