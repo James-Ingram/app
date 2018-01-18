@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="theme-color" content="#805064">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> CryptoPal - Caesar </title>
+    <link rel="icon" href="images/icon.jpg">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body style="background-color:#805064;">
+    <div class="banner">
+      <svg version="1.1" width="100%"  viewbox=" 0 0 300 50">
+        <title>CryptoPal</title>
+        <!--Purple to Orange -->
+        <!-- Inline CSS was done in order to avoid an uneccesarily complex CSS document -->
+        <linearGradient id="g1" x1="0%" x2="100%" y1="0%" y2="0%">
+          <stop offset="0%" style="stop-color:#805064;"/>
+          <stop offset="75%" style="stop-color:#C48157;"/>
+        </linearGradient>
+        <!-- Orange to Purple -->
+        <!-- Inline CSS was done in order to avoid an uneccesarily complex CSS document -->
+        <linearGradient id="g2" x1="0%" x2="100%" y1="0%" y2="0%">
+          <stop offset="30%" style="stop-color:#C48157;"/>
+          <stop offset="100%" style="stop-color:#805064;"/>
+        </linearGradient>
+        <rect  x="70" width="160" height="50" fill="#C48157" />
+        <ellipse cx="225" cy="25" rx="75" ry="25" fill="url(#g2)" />
+        <ellipse  cx="75" cy="25" rx="75" ry="25" fill="url(#g1)" />
+        <text class="logo" font-weight="bold" font-size="35" x="60" y="35" fill="#000000">CryptoPal</text>
+      </svg>
+    </div>
+    <p class="tagline"><strong>A fun app to learn about the basics of cryptography</strong></p>
+
+    <main>
+
+      <nav class="menu-toggle">
+        <input type="checkbox" />
+        <p class="menu"><strong>Menu</strong></p>
+
+        <ul>
+          <a href="index.html">
+            <li>Home</li>
+          </a>
+          <a href="caesar.html">
+            <li>Caesar</li>
+          </a>
+          <a href="route.html">
+            <li>Route</li>
+          </a>
+          <a href="vigenere.html">
+            <li>Vigenère</li>
+          </a>
+          <a href="activities.html">
+            <li class="current">Activities</li>
+          </a>
+        </ul>
+      </nav>
+
+      <section class="caesar-section">
+        <h2>Example of a Caesar Cipher</h2>
+        <div class="instructions">
+          <h5>To use the example provided:</h5>
+          <small>- Enter text in to the first box</small>
+          <small>- Add the number of positions to shift (Second box)</small>
+          <small>- Click "Submit" </small>
+        </div>
+
+        <form class="caesar" id="get-input" action="#">
+          <input type="text" id="user-input" placeholder="Enter some text to encrpyt!" maxlength="80">
+          <input type="number" id="user-number" placeholder="0" min="0" max="26">
+          <input type="submit" id="submit">
+          <p>Here's the encrypted text: <span id="user-output"><strong><em>Default</em></strong></span></p>
+        </form>
+
+        <script src="scripts/caesar.js"></script>
+      </section>
+    </main>
+  </body>
+</html>

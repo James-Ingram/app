@@ -24,6 +24,18 @@
      text-align: center;
      font-size: 100%;
 }
+ .menu {
+     border-color: black;
+     border-style: ridge;
+     background-color: #c48157;
+     border-radius: 32px;
+     font-family:Architects Daughter;
+     text-align: center;
+     font-size: 100%;
+     z-index: -1;
+     position: sticky;
+     top: -1px;
+}
 /* Navbar */
  .menu-toggle ul a{
      text-align: center;
@@ -46,42 +58,20 @@
  .menu-toggle input {
      background-color: black;
      display: block;
-     width: 40px;
+     width: 100%;
      height: 32px;
-     top: -7px;
-     left: -5px;
-     margin:-22px -10px;
+     margin:1px 0px -50px 0px;
      opacity: 0;
     /* Hides the box but allows for fucntionality*/
      z-index: 1;
      cursor: pointer;
-}
- .menu-toggle span {
-     display: block;
-     width: 33px;
-     height: 4px;
-     margin-bottom: 1px;
-     position: relative;
-     background-color: #c48157;
-     border-radius: 8px;
-     border-color:black;
-     border-style:ridge;
-     z-index: -1;
-     transform-origin: 4px 0px;
-     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0), background 0.5s cubic-bezier(0.77,0.2,0.05,1.0), opacity 0.55s ease;
-}
- .menu-toggle span:first-child {
-     transform-origin: 0% 0%;
-}
- .menu-toggle span:nth-last-child(2) {
-     transform-origin: 0% 100%;
 }
  .menu-toggle ul {
      position: fixed;
      width: 180px;
      margin: -50px 0 0 -70px;
      padding: 5px;
-     padding-top: 45px;
+     padding-top: 4px;
      text-decoration: none;
      border-color: black;
      border-style: ridge;
@@ -116,6 +106,7 @@
      border-color: black;
      border-style: ridge;
      border-radius: 32px;
+     font-size:100%;
 }
  section p {
      background-color: #C48157;
@@ -143,18 +134,28 @@
 /**/
 /* Form Stylings */
  .instructions{
-     margin-right: 5px;
-     text-align: justify;
-}
- .caesar-section p {
+    background-color: #C48157;
+     border-radius: 32px;
      border-color: black;
      border-style: ridge;
+     font-family: helvetica;
+     font-weight: bold;
+     padding: 5px;
+     margin: 6px;
+     flex-direction: column;
+     width: 93%
+ }
+ .instructions h5{
+    font-size: 100%;
+    padding: 0px;
+    width: 100%;
+ }
+ .caesar-section small {
+    margin-bottom: 10px;
+    width: 100%;
 }
  .caesar label {
      background-color: #C48157;
-     text-align: justify; /* Readability */
-     justify-content: space-between;
-     align-items: stretch;
      border-color: black;
      border-style: ridge;
      border-radius: 32px;
@@ -162,7 +163,7 @@
      font-weight: bold;
      padding: 10px;
      margin: 6px;
-     width: 20%;
+     width: 100%;
 }
  .caesar input {
      text-align: justify; /* Readability */
@@ -174,7 +175,6 @@
      font-weight: bold;
      padding: 10px;
      margin: 6px;
-     width: 20%;
 }
 /**/
 /* Stylings for user output */
