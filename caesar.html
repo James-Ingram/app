@@ -5,7 +5,6 @@
     <meta name="theme-color" content="#805064">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> CryptoPal - Caesar </title>
-    <link rel="icon" href="images/icon.jpg">
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body style="background-color:#805064;">
@@ -51,6 +50,9 @@
           <a href="activities.html">
             <li>Activities</li>
           </a>
+          <a href="Cryptography.html">
+            <li>Cryptography</li>
+          </a>          
         </ul>
       </nav>
       <section class="caesar-section">
@@ -84,21 +86,6 @@
           </div>
           <!-- Beginning of Interactable Caesar Cipher -->
         </section>
-        <h2>Practical Example</h2>
-        <div class="instructions">
-          <p class="instructions">To use the example provided:</p>
-          <p class="instructions">- Enter text in to the first box</p>
-          <p class="instructions">- Add a number of places to shift the text (Second box)</p>
-          <p>- Click "Submit" </p>
-        </div>
-        <form class="caesar" id="get-input" action="#">
-          <label>Try your own encryption:</label>
-          <input type="text" id="user-input" placeholder="Enter some text to encrpyt!" maxlength="80">
-          <input type="number" id="user-number" placeholder="0" min="0" max="26">
-          <input type="submit" id="submit">
-          <p>Here's the encrypted text: <span id="user-output"><strong><em>Default</em></strong></span></p>
-        </form>
-        <script src="scripts/caesar.js"></script>
       </section>
     </main>
   </body>

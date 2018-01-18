@@ -22,7 +22,7 @@
      border-radius: 32px;
      font-family:Architects Daughter;
      text-align: center;
-     font-size: 100%;
+     font-size: 90%;
 }
  .menu {
      border-color: black;
@@ -70,7 +70,6 @@
      position: fixed;
      width: 180px;
      margin: -50px 0 0 -70px;
-     padding: 5px;
      padding-top: 4px;
      text-decoration: none;
      border-color: black;
@@ -134,7 +133,7 @@
 /**/
 /* Form Stylings */
  .instructions{
-    background-color: #C48157;
+     background-color: #C48157;
      border-radius: 32px;
      border-color: black;
      border-style: ridge;
@@ -143,10 +142,12 @@
      padding: 5px;
      margin: 6px;
      flex-direction: column;
-     width: 93%
+     width: 93%;
+     align-items: center;
  }
  .instructions h5{
     font-size: 100%;
+    align-items: stretch;
     padding: 0px;
     width: 100%;
  }
@@ -173,7 +174,7 @@
      border-radius: 32px;
      font-family: helvetica; /* Readability */
      font-weight: bold;
-     padding: 10px;
+     padding: 5px;
      margin: 6px;
 }
 /**/
